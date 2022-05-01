@@ -1,0 +1,7 @@
+<ol>
+  <li *ngFor="let data of persons">
+    <img src="{{ data.profilePhotoUrl }}" alt="" />
+    <h1>{{ data.name }} {{ data.surname }}</h1>
+    <p>{{ data.address.city }}</p>
+  </li>
+</ol>

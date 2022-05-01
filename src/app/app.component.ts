@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-exercise';
+  /* title = 'angular-exercise';
+  username:string = "";
+
+
+
+  reset(){
+    this.username = "";
+  } */
 }
